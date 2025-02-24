@@ -17,10 +17,10 @@ header {
 }
 
 .logo {
-    width: 200px; /* Ajuste conforme necessário */
-    height: auto;
+    width: 550px !important; /* Ajuste conforme necessário */
+    height: auto !important;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto !important;
     background-color: transparent; /* Garantir que o fundo da imagem será transparente */
 }
 
