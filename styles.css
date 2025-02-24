@@ -17,8 +17,11 @@ header {
 }
 
 .logo {
-    width: 500px;
+    width: 200px; /* Ajuste conforme necessário */
     height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent; /* Garantir que o fundo da imagem será transparente */
 }
 
 nav {
