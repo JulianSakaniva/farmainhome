@@ -231,3 +231,29 @@ nav ul li a:hover {
         margin: 5px auto; /* Espaçamento entre os links */
     }
 }
+/* Estilo do cabeçalho */
+header {
+    background-color: #f2e9cb;
+    color: #228B22;
+    padding: 15px;
+    display: flex;
+    justify-content: center; /* Alinha o logo horizontalmente */
+    align-items: center; /* Alinha o logo verticalmente */
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 150px; /* Tamanho padrão */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza no desktop */
+    background-color: transparent;
+}
+
+/* Responsividade para a logo */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 120px; /* Ajusta o tamanho da logo no celular */
+    }
+}
