@@ -244,13 +244,12 @@ header {
 
 /* Logo */
 .logo {
-    width: 140px; /* Tamanho padrão */
+    max-width: 100%; /* Tamanho padrão */
     height: auto;
     display: block;
     margin: 0 auto; /* Centraliza no desktop */
     background-color: transparent;
 }
-
 /* Responsividade para a logo */
 @media screen and (max-width: 768px) {
     .logo {
@@ -381,7 +380,7 @@ header {
     display: block;
 }
 .payment-option img {
-    height: 65px; /* Define altura fixa para ambas as imagens */
+    height: 60px; /* Define altura fixa para ambas as imagens */
     width: auto; /* Mantém a proporção original de largura */
     display: block;
     margin: 0 auto; /* Centraliza as imagens */
