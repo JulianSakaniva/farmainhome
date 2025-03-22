@@ -257,3 +257,141 @@ header {
         width: 120px; /* Ajusta o tamanho da logo no celular */
     }
 }
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #25D366;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: pulse 1.5s infinite; /* Animação pulsante */
+    text-decoration: none;
+}
+
+#whatsapp-button img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#whatsapp-button span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#whatsapp-button:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+/* Animação pulsante */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Expansão suave */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#contact-button {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    gap: 8px; /* Espaço entre o ícone e o texto */
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    padding: 8px 10px; /* Reduzi o padding para diminuir o tamanho do botão */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content; /* Ajusta ao conteúdo */
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none; /* Remove sublinhação */
+}
+
+#contact-button img {
+    width: 24px; /* Reduzi o tamanho do ícone */
+    height: 24px;
+    border-radius: 50%;
+}
+
+#contact-button span {
+    color: #333;
+    font-size: 16px; /* Texto menor para combinar com o novo tamanho do botão */
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#contact-button:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.info-banner .banner {
+    text-align: center; /* Centraliza o conteúdo do banner */
+}
+#whatsapp-button a {
+    text-decoration: none; /* Remove sublinhado do texto do hiperlink */
+    color: inherit; /* Garante que a cor do texto seja herdada (branca, no caso do botão) */
+}
+
+#contact-button a {
+    text-decoration: none; /* Aplica a mesma regra para o botão no banner de contato */
+    color: inherit;
+}
+.payment-option {
+    display: flex;
+    flex-direction: column; /* Organiza imagem e texto em coluna */
+    align-items: center; /* Centraliza os elementos */
+    margin: 10px; /* Espaço entre as opções de pagamento */
+}
+
+.payment-option p {
+    margin-top: 8px; /* Espaço acima do texto */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center;
+}
+.payment-option {
+    display: flex;
+    flex-direction: column; /* Organiza o texto e a imagem em coluna */
+    align-items: center; /* Centraliza os elementos */
+    margin: 10px; /* Espaço entre as opções de pagamento */
+}
+
+.payment-option p {
+    margin-bottom: 8px; /* Espaço entre o texto e a imagem */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center;
+}
+
+.payment-option img {
+    width: 130px; /* Tamanho padrão das imagens */
+    height: auto; /* Mantém a proporção */
+    display: block;
+}
+.payment-option img {
+    height: 70px; /* Define altura fixa para ambas as imagens */
+    width: auto; /* Mantém a proporção original de largura */
+    display: block;
+    margin: 0 auto; /* Centraliza as imagens */
+}
+.icon-list {
+    list-style: none; /* Remove os pontos das listas */
+    padding: 0; /* Remove o recuo padrão à esquerda */
+    margin: 0; /* Ajusta o espaçamento */
+}
+
+.icon-list li {
+    padding: 5px 0; /* Espaço entre os itens da lista */
+}
