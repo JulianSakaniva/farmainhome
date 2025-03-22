@@ -244,7 +244,7 @@ header {
 
 /* Logo */
 .logo {
-    width: 150px; /* Tamanho padrão */
+    width: 140px; /* Tamanho padrão */
     height: auto;
     display: block;
     margin: 0 auto; /* Centraliza no desktop */
@@ -381,7 +381,7 @@ header {
     display: block;
 }
 .payment-option img {
-    height: 70px; /* Define altura fixa para ambas as imagens */
+    height: 65px; /* Define altura fixa para ambas as imagens */
     width: auto; /* Mantém a proporção original de largura */
     display: block;
     margin: 0 auto; /* Centraliza as imagens */
