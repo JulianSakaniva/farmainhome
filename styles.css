@@ -394,3 +394,75 @@ header {
 .icon-list li {
     padding: 5px 0; /* Espaço entre os itens da lista */
 }
+.planos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plano {
+    background-color: #f2e9cb;
+    border: 2px solid #228B22;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plano:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.plano h4 {
+    font-size: 1.8em;
+    color: #228B22;
+    margin-bottom: 10px;
+}
+
+.plano .preco {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.plano ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.plano ul li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.plano em {
+    font-style: italic;
+    color: #228B22; /* Destaque com verde vibrante */
+    font-weight: bold; /* Adiciona peso ao texto */
+    font-size: 1.1em; /* Aumenta levemente o tamanho da fonte */
+    background-color: #e6ffe6; /* Fundo leve para realçar */
+    padding: 5px; /* Espaço ao redor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: inline-block; /* Garante que o fundo se ajuste ao texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efeito de sombra para destacá-lo */
+}
+
+
+.basico {
+    border-color: #008000;
+    background-color: #e6ffe6;
+}
+
+.premium {
+    border-color: #006400;
+    background-color: #d9f2d9;
+}
